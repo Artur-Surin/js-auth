@@ -20,7 +20,7 @@ class SignupConfirmForm extends Form {
       return this.FIELD_ERROR.IS_EMPTY
     }
 
-    if (String(value).length > 20) {
+    if (String(value).length > 50) {
       return this.FIELD_ERROR.IS_BIG
     }
   }
